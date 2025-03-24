@@ -1,4 +1,5 @@
 import 'package:calcula_preco/shortcut0.dart';
+import 'package:calcula_preco/att_page.dart';
 import 'package:flutter/material.dart';
 
 class app extends StatelessWidget {
@@ -13,7 +14,7 @@ class app extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
       ),
-      home: shortcut0(),
+      home: att(),
     );
   }
 }
