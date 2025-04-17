@@ -1,17 +1,21 @@
+// ignore_for_file: unused_field, library_private_types_in_public_api
+
 import 'dart:async';
 import 'package:calcula_preco/shortcut0.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class att extends StatefulWidget {
+class Att extends StatefulWidget {
   final String storeUrl = "https://github.com/DevMonts/calcula_preco.git";
-  final String latestVersion = "1.2.0";
+  final String latestVersion = "1.0.0";
+
+  const Att({super.key});
   @override
-  _attState createState() => _attState();
+  _AttState createState() => _AttState();
 }
 
-class _attState extends State<att> {
+class _AttState extends State<Att> {
   bool _isCheckingVersion = true;
   bool _isOutdated = false;
   String _version = '';
